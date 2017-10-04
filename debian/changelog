@@ -1,10 +1,8 @@
-carbon-c-relay (1.11-1) UNRELEASED; urgency=high
+carbon-c-relay (3.1-1) UNRELEASED; urgency=high
 
-  * Releasing carbon-c-relay 1.11
-  * Releasing carbon-c-relay 1.11
-  * Releasing carbon-c-relay 1.11
+  * Releasing carbon-c-relay 3.1
 
- -- Jose Riguera <jose.riguera@springer.com>  Thu, 14 Apr 2016 22:49:45 +0200
+ -- Crew Reading <crew@crew-l.corp.instructure.com>  Tue, 03 Oct 2017 15:33:52 -0600
 
 carbon-c-relay (1.2) unstable; urgency=high
 

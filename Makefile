@@ -24,7 +24,7 @@ DESTDIR		 = /usr/local/etc/carbon
 PREFIX           = /usr/local
 TARGET           = carbon-c-relay
 GIT_VERSION     := $(shell git describe --abbrev=6 --dirty --always || date +%F)
-GVCFLAGS        += -DGIT_VERSION=\"$(GIT_VERSION)\" -DVERSION=\"3.0\"
+GVCFLAGS        += -DGIT_VERSION=\"$(GIT_VERSION)\" -DVERSION=\"3.1\"
 
 # change these to set the proper directories where each files shoould be
 SRCDIR   = src
@@ -73,7 +73,7 @@ uninstall:
 	$(RM) -rf $(DESTDIR)/etc/$(TARGET) 
 
 
-VERSION = $(shell sed -n '/VERSION/s/^.*"\([0-9.]\+\)".*$$/\1/p' $(SRCDIR)/relay.h)
+VERSION = 3.1
 .PHONY: dist
 dist:
 	@$(GIT) archive \
